@@ -84,8 +84,7 @@ body {
   text-overflow: ellipsis;
 }
 
-header > a,
-#root > div > h1 {
+header>a, #root>div>h1 {
   display: inline-block;
   background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png);
   width: 279px;
@@ -145,7 +144,7 @@ header {
   margin-top: 8px;
 }
 
-.carousel > img {
+.carousel>img {
   max-width: 45%;
   max-height: 400px;
 }
@@ -154,7 +153,7 @@ header {
   width: 50%;
 }
 
-.carousel-smaller > img {
+.carousel-smaller>img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -164,7 +163,7 @@ header {
   border: 2px solid #333;
 }
 
-.carousel-smaller > img.active {
+.carousel-smaller>img.active {
   border-color: #ad343e;
   opacity: 0.6;
 }
@@ -174,17 +173,14 @@ header {
   width: 60px;
 }
 
-.search-params input,
-.search-params select {
+.search-params input, .search-params select {
   margin-bottom: 30px;
   font-size: 18px;
   height: 30px;
   width: 325px;
 }
 
-.search-params button,
-#modal button,
-.details button {
+.search-params button, #modal button, .details button {
   background-color: #ad343e;
   padding: 5px 25px;
   color: white;
@@ -225,7 +221,7 @@ header {
   display: none;
 }
 
-#modal > div {
+#modal>div {
   background-color: white;
   max-width: 500px;
   padding: 15px;
@@ -247,15 +243,12 @@ header {
     margin: 0 auto;
     padding: 20px 0px 0px 0px;
   }
-
   .search-params {
     width: 95%;
   }
-
   .search-params form {
     margin-bottom: 20px;
   }
-
   .search {
     width: 55%;
     padding: 15px;
@@ -263,7 +256,6 @@ header {
     float: left;
     margin-bottom: 25px;
   }
-
   .details {
     width: 95%;
     margin: 0 auto;
@@ -271,18 +263,15 @@ header {
     border-radius: 9px;
     margin-bottom: 25px;
   }
-
   .info {
     width: 65%;
   }
-
   .info h1 {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-
   .info h2 {
     width: 100%;
     white-space: nowrap;
@@ -295,7 +284,6 @@ header {
   .search-params {
     width: 95%;
   }
-
   .search {
     width: 100%;
   }
@@ -305,17 +293,15 @@ header {
   .pet {
     height: 200px;
   }
-
   .info {
     width: 100%;
     text-align: center;
   }
-
   .image-container {
     margin: 0 auto;
     float: none;
   }
-  .carousel-smaller > img {
+  .carousel-smaller>img {
     width: 60px;
     height: 60px;
   }
